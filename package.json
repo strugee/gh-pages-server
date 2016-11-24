@@ -1,0 +1,28 @@
+{
+  "name": "gh-pages-server",
+  "version": "1.0.0",
+  "description": "Autodeploy static sites from git repos, just like GitHub Pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strugee/gh-pages-server.git"
+  },
+  "keywords": [
+    "github",
+    "pages",
+    "gh-pages"
+  ],
+  "author": "Alex Jordan <alex@strugee.net>",
+  "license": "AGPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/strugee/gh-pages-server/issues"
+  },
+  "homepage": "https://github.com/strugee/gh-pages-server#readme",
+  "dependencies": {
+    "compression": "^1.6.2",
+    "express": "^4.14.0"
+  }
+}
