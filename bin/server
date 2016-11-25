@@ -44,6 +44,8 @@ var argv = require('yargs')
 
 console.log(agpl_notice);
 
+app.argv = argv;
+
 var server = app.listen(argv.port, argv.address, function() {
 	var host = server.address().address;
 	var port = server.address().port;

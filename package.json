@@ -23,7 +23,9 @@
   "homepage": "https://github.com/strugee/gh-pages-server#readme",
   "dependencies": {
     "compression": "^1.6.2",
+    "concat-stream": "^1.5.2",
     "express": "^4.14.0",
+    "git-clone-or-pull": "^2.1.0",
     "yargs": "^6.4.0"
   }
 }
