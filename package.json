@@ -23,6 +23,7 @@
   "homepage": "https://github.com/strugee/gh-pages-server#readme",
   "dependencies": {
     "compression": "^1.6.2",
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "yargs": "^6.4.0"
   }
 }
