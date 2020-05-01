@@ -7,7 +7,9 @@
     "gh-pages-server": "./bin/server"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -30,9 +32,11 @@
     "express": "^4.14.0",
     "git-clone-or-pull": "^4.0.0",
     "write-file-atomic": "^1.2.0",
-    "yargs": "^6.4.0"
+    "yargs": "^6.4.0",
+    "snyk": "^1.316.1"
   },
   "yargs": {
     "dot-notation": false
-  }
+  },
+  "snyk": true
 }
