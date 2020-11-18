@@ -30,7 +30,7 @@
     "express": "^4.14.0",
     "git-clone-or-pull": "^4.0.0",
     "write-file-atomic": "^1.2.0",
-    "yargs": "^6.4.0"
+    "yargs": "^16.0.0"
   },
   "yargs": {
     "dot-notation": false
